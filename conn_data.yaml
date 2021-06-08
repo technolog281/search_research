@@ -1,0 +1,9 @@
+﻿- server: 127.0.0.1:2044 # Адрес сервера, только в формате "0.0.0.0:1111"
+  user: sa # Имя пользователя
+  password: Apacheserver1390 # Пароль
+  database: amur_mis_belbol # Имя экземпляра БД MSSQL
+  charset: WINDOWS-1251 # Набор символов для запроса (стандарт: "WINDOWS-1251")
+
+
+- log_link: C:\UniGate\log\unigateIntServ.log # Ссылка на файл логов UniGate
+  encoding: cp1251 # Кодировка файла логов UniGate (стандарт: "cp1251")
