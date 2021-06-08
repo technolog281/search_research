@@ -1,11 +1,9 @@
-﻿from itertools import groupby
-from loguru import logger
+﻿from loguru import logger
 import pandas as pd
 import pymssql
 import yaml
 
 logger.add('logs.log')
-
 dict_to_df = {}
 list_of_numbers = []
 
@@ -13,7 +11,6 @@ try:
     with open('./conn_data.yaml') as conn_data:
         logger.info('Opening UnigateInsServ.log templates')
         link_templates = yaml.safe_load(conn_data)[1]
-        print(link_templates)
         if link_templates is None:
             logger.warning('UnigateInsServ.log templates not open')
         else:
@@ -61,31 +58,35 @@ def db_connect():
 try:
     db_connect()
 except pymssql._pymssql.OperationalError:
-    logger.exception('Connection error, check templates in "conn_data.yaml"')
+    logger.error('Connection error, check templates in "conn_data.yaml"')
 else:
     logger.info(f'Connection to {db} was successful')
 
+cursor = db_connect()
+
 
 def select():
-    df = pd.DataFrame(columns=['UnigateCode', 'ResearchName'])
-    cursor = db_connect()
+    df = pd.DataFrame(columns=['UnigateCode', 'ResearchName', 'Research_Code', 'Biom', 'ParamName'])
     for num in num_parse():
-        cursor.execute(f"select ParamName from lbr_researchtypeparam where codelis = '{num}'")
-        uguid_list = str(cursor.fetchall())
-        uguid_split = uguid_list.split("'")
-        research_name_list = []
-        for uguid in uguid_split:
-            if len(uguid) > 5:
-                research_name_list.append(uguid)
-                research_name_string = str([el for el, _ in groupby(research_name_list)])
-                research_name = research_name_string.split("'")
-                x = ''
-                for every in research_name:
-                    if len(every) > 5:
-                        x = x + every + ', '
-        df = df.append({'UnigateCode': num, 'ResearchName': x.rsplit(',', 1)[0]}, ignore_index=True, sort=False)
-        logger.info(f'For research {num}, a match was found - {x}')
-    df.to_excel('./result.xlsx', index=False)
+        cursor.execute("SELECT lbr_ResearchType.ResearchName, "
+                       "lbr_ResearchType.Code, "
+                       "lbr_ResearchType.rf_BioMID, "
+                       "lbr_ResearchTypeParam.ParamName "
+                       "FROM lbr_ResearchType JOIN lbr_ResearchTypeParam "
+                       "ON lbr_ResearchType.UGUID = lbr_ResearchTypeParam.rf_ResearchTypeUGUID "
+                       f"WHERE CodeLis = '{num}'")
+        biom_list = cursor.fetchall()
+        if biom_list is not None:
+            logger.info(f'For research {num}, a match was found')
+        if len(biom_list) >= 1:
+            for one in biom_list:
+                cursor.execute(f"SELECT Name FROM lbr_BioM WHERE BioMID = '{one[2]}'")
+                biom_name = cursor.fetchone()
+                df = df.append({'UnigateCode': num,
+                                'ResearchName': one[0],
+                                'Research_Code': one[1],
+                                'Biom': biom_name[0],
+                                'ParamName': one[3]},
+                               ignore_index=True)
+    df.to_excel('result.xlsx')
     logger.info('Research list was write to "result.xlsx"')
-
-
