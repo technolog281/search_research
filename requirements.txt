@@ -2,3 +2,4 @@ pandas~=1.2.4
 pymssql~=2.2.1
 PyYAML~=5.4.1
 loguru~=0.5.3
+psutil~=5.8.0

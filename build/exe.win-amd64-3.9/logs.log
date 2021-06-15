@@ -1,0 +1,141 @@
+2021-06-09 04:27:46.972 | INFO     | search_research:<module>:12 - Opening UnigateInsServ.log templates
+2021-06-09 04:27:46.975 | INFO     | search_research:<module>:17 - Open UnigateInsServ.log templates
+2021-06-09 04:27:46.976 | INFO     | search_research:<module>:22 - Load templates for SQL_Connect
+2021-06-09 04:27:46.978 | INFO     | search_research:<module>:28 - Templates for SQL_Connect is load
+2021-06-09 04:27:46.979 | INFO     | search_research:<module>:31 - conn_data.yaml is closed
+2021-06-09 04:27:47.003 | INFO     | search_research:<module>:63 - Connection to amur_mis_belbol was successful
+2021-06-09 04:27:47.012 | INFO     | __main__:<module>:5 - Application is running
+2021-06-09 04:27:47.021 | INFO     | search_research:num_parse:42 - Find research with Code = "1125996"
+2021-06-09 04:27:47.023 | INFO     | search_research:num_parse:42 - Find research with Code = "1019652"
+2021-06-09 04:27:47.024 | INFO     | search_research:num_parse:42 - Find research with Code = "100003"
+2021-06-09 04:27:47.025 | INFO     | search_research:num_parse:42 - Find research with Code = "1019611"
+2021-06-09 04:27:47.026 | INFO     | search_research:num_parse:42 - Find research with Code = "1019645"
+2021-06-09 04:27:47.026 | INFO     | search_research:num_parse:42 - Find research with Code = "100004"
+2021-06-09 04:27:47.027 | INFO     | search_research:num_parse:42 - Find research with Code = "1018704"
+2021-06-09 04:27:47.028 | INFO     | search_research:num_parse:42 - Find research with Code = "1045947"
+2021-06-09 04:27:47.029 | INFO     | search_research:num_parse:42 - Find research with Code = "1045152"
+2021-06-09 04:27:47.032 | INFO     | search_research:num_parse:42 - Find research with Code = "1045186"
+2021-06-09 04:27:47.032 | INFO     | search_research:num_parse:42 - Find research with Code = "1048164"
+2021-06-09 04:27:47.033 | INFO     | search_research:num_parse:42 - Find research with Code = "1126390"
+2021-06-09 04:27:47.034 | INFO     | search_research:num_parse:42 - Find research with Code = "1126218"
+2021-06-09 04:27:47.035 | INFO     | search_research:num_parse:42 - Find research with Code = "1130467"
+2021-06-09 04:27:47.036 | INFO     | search_research:num_parse:42 - Find research with Code = "1130459"
+2021-06-09 04:27:47.037 | INFO     | search_research:num_parse:42 - Find research with Code = "1045145"
+2021-06-09 04:27:47.038 | INFO     | search_research:num_parse:42 - Find research with Code = "1048180"
+2021-06-09 04:27:47.039 | INFO     | search_research:num_parse:42 - Find research with Code = "1007418"
+2021-06-09 04:27:47.041 | INFO     | search_research:num_parse:42 - Find research with Code = "1007434"
+2021-06-09 04:27:47.042 | INFO     | search_research:num_parse:42 - Find research with Code = "1048263"
+2021-06-09 04:27:47.043 | INFO     | search_research:num_parse:42 - Find research with Code = "1126697"
+2021-06-09 04:27:47.044 | INFO     | search_research:num_parse:42 - Find research with Code = "1045350"
+2021-06-09 04:27:47.045 | INFO     | search_research:num_parse:42 - Find research with Code = "1045335"
+2021-06-09 04:27:47.046 | INFO     | search_research:num_parse:42 - Find research with Code = "1126275"
+2021-06-09 04:27:47.047 | INFO     | search_research:num_parse:42 - Find research with Code = "1048180"
+2021-06-09 04:27:47.048 | INFO     | search_research:num_parse:42 - Find research with Code = "1127430"
+2021-06-09 04:27:47.049 | INFO     | search_research:num_parse:42 - Find research with Code = "1126051"
+2021-06-09 04:27:47.051 | INFO     | search_research:num_parse:42 - Find research with Code = "1012244"
+2021-06-09 04:27:47.052 | INFO     | search_research:num_parse:42 - Find research with Code = "1046986"
+2021-06-09 04:27:47.053 | INFO     | search_research:num_parse:42 - Find research with Code = "1126440"
+2021-06-09 04:27:47.054 | INFO     | search_research:num_parse:42 - Find research with Code = "1126457"
+2021-06-09 04:27:47.056 | INFO     | search_research:num_parse:42 - Find research with Code = "1015122"
+2021-06-09 04:27:47.057 | INFO     | search_research:num_parse:42 - Find research with Code = "1001650"
+2021-06-09 04:27:47.058 | INFO     | search_research:num_parse:42 - Find research with Code = "1125459"
+2021-06-09 04:27:47.059 | INFO     | search_research:num_parse:42 - Find research with Code = "1126960"
+2021-06-09 04:27:47.061 | INFO     | search_research:num_parse:42 - Find research with Code = "1126069"
+2021-06-09 04:27:47.062 | INFO     | search_research:num_parse:42 - Find research with Code = "1128396"
+2021-06-09 04:27:47.063 | INFO     | search_research:num_parse:42 - Find research with Code = "1128594"
+2021-06-09 04:27:47.064 | INFO     | search_research:num_parse:42 - Find research with Code = "1128545"
+2021-06-09 04:27:47.065 | INFO     | search_research:num_parse:42 - Find research with Code = "1125293"
+2021-06-09 04:27:47.066 | INFO     | search_research:num_parse:42 - Find research with Code = "1127042"
+2021-06-09 04:27:47.067 | INFO     | search_research:num_parse:42 - Find research with Code = "1125830"
+2021-06-09 04:27:47.068 | INFO     | search_research:num_parse:42 - Find research with Code = "1127661"
+2021-06-09 04:27:47.069 | INFO     | search_research:num_parse:42 - Find research with Code = "1126317"
+2021-06-09 04:27:47.072 | INFO     | search_research:num_parse:42 - Find research with Code = "1126358"
+2021-06-09 04:27:47.073 | INFO     | search_research:num_parse:42 - Find research with Code = "1126945"
+2021-06-09 04:27:47.074 | INFO     | search_research:num_parse:42 - Find research with Code = "1126960"
+2021-06-09 04:27:47.075 | INFO     | search_research:num_parse:42 - Find research with Code = "1125350"
+2021-06-09 04:27:47.076 | INFO     | search_research:num_parse:42 - Find research with Code = "1128107"
+2021-06-09 04:27:47.077 | INFO     | search_research:num_parse:42 - Find research with Code = "1128495"
+2021-06-09 04:27:47.078 | INFO     | search_research:num_parse:42 - Find research with Code = "1125111"
+2021-06-09 04:27:47.079 | INFO     | search_research:num_parse:42 - Find research with Code = "1128115"
+2021-06-09 04:27:47.081 | INFO     | search_research:num_parse:42 - Find research with Code = "1128107"
+2021-06-09 04:27:47.082 | INFO     | search_research:num_parse:42 - Find research with Code = "1037977"
+2021-06-09 04:27:47.083 | INFO     | search_research:num_parse:42 - Find research with Code = "1127976"
+2021-06-09 04:27:47.084 | INFO     | search_research:num_parse:42 - Find research with Code = "1125079"
+2021-06-09 04:27:47.085 | INFO     | search_research:num_parse:42 - Find research with Code = "1126549"
+2021-06-09 04:27:47.086 | INFO     | search_research:num_parse:42 - Find research with Code = "1126564"
+2021-06-09 04:27:47.087 | INFO     | search_research:num_parse:42 - Find research with Code = "1126663"
+2021-06-09 04:27:47.088 | INFO     | search_research:num_parse:42 - Find research with Code = "1127133"
+2021-06-09 04:27:47.089 | INFO     | search_research:num_parse:42 - Find research with Code = "1127158"
+2021-06-09 04:27:47.092 | INFO     | search_research:num_parse:42 - Find research with Code = "1127174"
+2021-06-09 04:27:47.093 | INFO     | search_research:num_parse:42 - Find research with Code = "1127174"
+2021-06-09 04:27:47.094 | INFO     | search_research:num_parse:42 - Find research with Code = "1127323"
+2021-06-09 04:27:47.095 | INFO     | search_research:num_parse:42 - Find research with Code = "1127349"
+2021-06-09 04:27:47.096 | INFO     | search_research:num_parse:42 - Find research with Code = "1127950"
+2021-06-09 04:27:47.101 | INFO     | search_research:select:80 - For research 1125996, a match was found
+2021-06-09 04:27:47.112 | INFO     | search_research:select:80 - For research 1019652, a match was found
+2021-06-09 04:27:47.119 | INFO     | search_research:select:80 - For research 100003, a match was found
+2021-06-09 04:27:47.127 | INFO     | search_research:select:80 - For research 1019611, a match was found
+2021-06-09 04:27:47.135 | INFO     | search_research:select:80 - For research 1019645, a match was found
+2021-06-09 04:27:47.143 | INFO     | search_research:select:80 - For research 100004, a match was found
+2021-06-09 04:27:47.153 | INFO     | search_research:select:80 - For research 1018704, a match was found
+2021-06-09 04:27:47.161 | INFO     | search_research:select:80 - For research 1045947, a match was found
+2021-06-09 04:27:47.171 | INFO     | search_research:select:80 - For research 1045152, a match was found
+2021-06-09 04:27:47.179 | INFO     | search_research:select:80 - For research 1045186, a match was found
+2021-06-09 04:27:47.187 | INFO     | search_research:select:80 - For research 1048164, a match was found
+2021-06-09 04:27:47.197 | INFO     | search_research:select:80 - For research 1126390, a match was found
+2021-06-09 04:27:47.207 | INFO     | search_research:select:80 - For research 1126218, a match was found
+2021-06-09 04:27:47.217 | INFO     | search_research:select:80 - For research 1130467, a match was found
+2021-06-09 04:27:47.228 | INFO     | search_research:select:80 - For research 1130459, a match was found
+2021-06-09 04:27:47.238 | INFO     | search_research:select:80 - For research 1045145, a match was found
+2021-06-09 04:27:47.248 | INFO     | search_research:select:80 - For research 1048180, a match was found
+2021-06-09 04:27:47.257 | INFO     | search_research:select:80 - For research 1007418, a match was found
+2021-06-09 04:27:47.265 | INFO     | search_research:select:80 - For research 1007434, a match was found
+2021-06-09 04:27:47.273 | INFO     | search_research:select:80 - For research 1048263, a match was found
+2021-06-09 04:27:47.280 | INFO     | search_research:select:80 - For research 1126697, a match was found
+2021-06-09 04:27:47.288 | INFO     | search_research:select:80 - For research 1045350, a match was found
+2021-06-09 04:27:47.299 | INFO     | search_research:select:80 - For research 1045335, a match was found
+2021-06-09 04:27:47.309 | INFO     | search_research:select:80 - For research 1126275, a match was found
+2021-06-09 04:27:47.319 | INFO     | search_research:select:80 - For research 1048180, a match was found
+2021-06-09 04:27:47.329 | INFO     | search_research:select:80 - For research 1127430, a match was found
+2021-06-09 04:27:47.339 | INFO     | search_research:select:80 - For research 1126051, a match was found
+2021-06-09 04:27:47.350 | INFO     | search_research:select:80 - For research 1012244, a match was found
+2021-06-09 04:27:47.357 | INFO     | search_research:select:80 - For research 1046986, a match was found
+2021-06-09 04:27:47.368 | INFO     | search_research:select:80 - For research 1126440, a match was found
+2021-06-09 04:27:47.378 | INFO     | search_research:select:80 - For research 1126457, a match was found
+2021-06-09 04:27:47.388 | INFO     | search_research:select:80 - For research 1015122, a match was found
+2021-06-09 04:27:47.399 | INFO     | search_research:select:80 - For research 1001650, a match was found
+2021-06-09 04:27:47.407 | INFO     | search_research:select:80 - For research 1125459, a match was found
+2021-06-09 04:27:47.418 | INFO     | search_research:select:80 - For research 1126960, a match was found
+2021-06-09 04:27:47.433 | INFO     | search_research:select:80 - For research 1126069, a match was found
+2021-06-09 04:27:47.443 | INFO     | search_research:select:80 - For research 1128396, a match was found
+2021-06-09 04:27:47.454 | INFO     | search_research:select:80 - For research 1128594, a match was found
+2021-06-09 04:27:47.464 | INFO     | search_research:select:80 - For research 1128545, a match was found
+2021-06-09 04:27:47.474 | INFO     | search_research:select:80 - For research 1125293, a match was found
+2021-06-09 04:27:47.485 | INFO     | search_research:select:80 - For research 1127042, a match was found
+2021-06-09 04:27:47.495 | INFO     | search_research:select:80 - For research 1125830, a match was found
+2021-06-09 04:27:47.506 | INFO     | search_research:select:80 - For research 1127661, a match was found
+2021-06-09 04:27:47.516 | INFO     | search_research:select:80 - For research 1126317, a match was found
+2021-06-09 04:27:47.523 | INFO     | search_research:select:80 - For research 1126358, a match was found
+2021-06-09 04:27:47.531 | INFO     | search_research:select:80 - For research 1126945, a match was found
+2021-06-09 04:27:47.538 | INFO     | search_research:select:80 - For research 1126960, a match was found
+2021-06-09 04:27:47.552 | INFO     | search_research:select:80 - For research 1125350, a match was found
+2021-06-09 04:27:47.562 | INFO     | search_research:select:80 - For research 1128107, a match was found
+2021-06-09 04:27:47.576 | INFO     | search_research:select:80 - For research 1128495, a match was found
+2021-06-09 04:27:47.586 | INFO     | search_research:select:80 - For research 1125111, a match was found
+2021-06-09 04:27:47.596 | INFO     | search_research:select:80 - For research 1128115, a match was found
+2021-06-09 04:27:47.611 | INFO     | search_research:select:80 - For research 1128107, a match was found
+2021-06-09 04:27:47.625 | INFO     | search_research:select:80 - For research 1037977, a match was found
+2021-06-09 04:27:47.633 | INFO     | search_research:select:80 - For research 1127976, a match was found
+2021-06-09 04:27:47.640 | INFO     | search_research:select:80 - For research 1125079, a match was found
+2021-06-09 04:27:47.647 | INFO     | search_research:select:80 - For research 1126549, a match was found
+2021-06-09 04:27:47.654 | INFO     | search_research:select:80 - For research 1126564, a match was found
+2021-06-09 04:27:47.662 | INFO     | search_research:select:80 - For research 1126663, a match was found
+2021-06-09 04:27:47.669 | INFO     | search_research:select:80 - For research 1127133, a match was found
+2021-06-09 04:27:47.676 | INFO     | search_research:select:80 - For research 1127158, a match was found
+2021-06-09 04:27:47.683 | INFO     | search_research:select:80 - For research 1127174, a match was found
+2021-06-09 04:27:47.693 | INFO     | search_research:select:80 - For research 1127174, a match was found
+2021-06-09 04:27:47.703 | INFO     | search_research:select:80 - For research 1127323, a match was found
+2021-06-09 04:27:47.710 | INFO     | search_research:select:80 - For research 1127349, a match was found
+2021-06-09 04:27:47.717 | INFO     | search_research:select:80 - For research 1127950, a match was found
+2021-06-09 04:27:48.001 | INFO     | search_research:select:92 - Research list was write to "result.xlsx"
+2021-06-09 04:27:48.003 | INFO     | __main__:<module>:7 - Application is stopped with no errors
